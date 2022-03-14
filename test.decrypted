@@ -1,0 +1,5 @@
+Boto3 comes with 'waiters', which automatically poll for pre-defined status changes in AWS resources. For example, you can start an Amazon EC2 instance and use a waiter to wait until it reaches the 'running' state, or you can create a new Amazon DynamoDB table and wait until it is available to use. Boto3 has waiters for both client and resource APIs.
+
+Service-specific High-level Features
+
+Boto3 comes with many features that are service-specific, such as automatic multi-part transfers for Amazon S3 and simplified query conditions for Amazon DynamoDB.
